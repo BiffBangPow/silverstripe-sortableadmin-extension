@@ -6,7 +6,7 @@ use SilverStripe\Core\Extension;
 use SilverStripe\Forms\GridField\GridFieldConfig;
 use Symbiote\GridFieldExtensions\GridFieldOrderableRows;
 
-class SortableAdminGridExtension extends Extension
+class SortableAdminExtension extends Extension
 {
     public function updateGridFieldConfig(GridFieldConfig $config)
     {
