@@ -10,6 +10,9 @@ class SortableAdminExtension extends Extension
 {
     public function updateGridFieldConfig(GridFieldConfig $config)
     {
-        $config->addComponent(new GridFieldOrderableRows('Sort'));
+        $owner = $this->getOwner();
+        if ($owner->modelClass::has_extension(SortableExtension::class)) {
+            $config->addComponent(new GridFieldOrderableRows('Sort'));
+        }
     }
 }
