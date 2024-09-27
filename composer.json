@@ -15,8 +15,6 @@
     }
   ],
   "require": {
-    "silverstripe/vendor-plugin": "^1.0",
-    "silverstripe/cms": "^4",
     "biffbangpow/silverstripe-sortable-extension": "^2"
   },
   "autoload": {
