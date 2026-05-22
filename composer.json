@@ -15,7 +15,7 @@
     }
   ],
   "require": {
-    "biffbangpow/silverstripe-sortable-extension": "^2"
+    "biffbangpow/silverstripe-sortable-extension": "dev-master"
   },
   "autoload": {
     "psr-4": {
